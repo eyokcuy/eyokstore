@@ -1,6 +1,6 @@
 <?php
 /**
- * GameTopUp Pro - Database Configuration
+ * Eyok Store - Database Configuration
  * PDO connection with error handling
  */
 

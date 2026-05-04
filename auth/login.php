@@ -1,6 +1,6 @@
 <?php
 /**
- * GameTopUp Pro - Login Page
+ * Eyok Store - Login Page
  */
 
 session_start();

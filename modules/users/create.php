@@ -1,17 +1,11 @@
 <?php
 /**
- * GameTopUp Pro - Create User
+ * Eyok Store - Create User
  * Admin only
  */
 
 require_once '../../middleware/auth.php';
-
-// Admin only access
-if (($_SESSION['role'] ?? '') !== 'admin') {
-    $_SESSION['flash'] = ['type' => 'error', 'message' => 'Unauthorized access.'];
-    header('Location: ../dashboard/index.php');
-    exit;
-}
+requireAdmin();
 
 require_once '../../config/database.php';
 

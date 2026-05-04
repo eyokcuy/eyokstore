@@ -1,6 +1,6 @@
 <?php
 /**
- * GameTopUp Pro - Authentication Middleware
+ * Eyok Store - Authentication Middleware
  * Include at the top of every protected page
  */
 

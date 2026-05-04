@@ -1,6 +1,6 @@
 <?php
 /**
- * GameTopUp Pro - Logout Handler
+ * EyokStore - Logout Handler
  */
 
 session_start();
